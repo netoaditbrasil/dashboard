@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+li {
+    list-style-type: none
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body aside {
+    height: 100vh;
+    width: 100%;
+    max-width: 271px;
+    background-color:#0C214C;
+}
+body aside .marca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 36px 0px;
+}
+body aside .persona {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-top: solid 0.5px rgba(255, 255, 255, 0.199);
+    border-bottom: solid 0.5px  rgba(255, 255, 255, 0.199);
+    padding: 22px 0px;   
+}
+body aside .persona .dados-pessoais {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+body aside .persona span {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 11.455px;
+    font-style: normal;
+    font-weight: 700;
+}
+body aside .persona p {
+    color: #35A8ED;
+    font-family: "Inter";
+    font-size: 11.359px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    max-width: 132px;
+}
+body aside .menu ul {
+    display: flex;
+    flex-direction: column;
+    padding: 19px;
+    gap: 4px;
+    
+
+
+}
+body aside .menu ul li {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.63);
+    font-family: "Inter";
+    font-size: 9.894px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 100%;
+    max-width: 221px;
+    padding: 7px 12px;
+    gap: 5px; 
+    border-radius: 3.541px;
+   
+}
+body aside .menu ul li img {
+    opacity: 63%;
+}
+body aside .menu ul li span {
+
+    background-color: #3880d1;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 20px;
+    font-size: 8px;
+    padding: 3px;
+}
+body aside .menu ul li:hover {
+    background-image: linear-gradient(90deg, #3F96B4,#F4C511 );
+    color: #FFF;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 3.541px;
+    
+}
+body aside .menu ul li:hover img {
+opacity: 100%;
+}
+body aside .cliente {
+    width: 100%;
+    height: 100%;
+    max-height: 185px;
+    background-color: #091B41;
+    padding: 19px 30px;
+}
+body aside .cliente .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+body aside .cliente .top .avatar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+body aside .cliente .top span {
+    color: rgba(255, 255, 255, 0.53);
+    font-family: Inter;
+    font-size: 9.48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+    max-width: 56px;
+}
+body aside .cliente .top .avatar .texto {
+    color: rgba(255, 255, 255, 0.53);
+font-family: 'Inter';
+font-size: 9.956px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+body aside .cliente .top .avatar .texto .ativo {
+    color: #28C76F;
+    font-family: 'Inter';
+    font-size: 9.087px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+}
+body aside .cliente .top .avatar .texto .ativo span {
+    
+    max-width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: #28C76F;
+    margin-left: 3px;
+
+}
+body aside .cliente .bot ul {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+body aside .cliente .bot ul li {
+    color: #3F88E7;
+    font-family: 'Inter';
+    font-size: 9.48px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 1px solid #3f88e744;
+    padding-bottom: 6px;
+
+
+}
+body aside .atendimento {
+    padding: 20px 30px;
+}
+body aside .atendimento .itens {
+    display: flex;
+    align-items: center;
+    border-radius: 6.275px;
+    background: linear-gradient(90deg, #0C214C 0%, #2B83AF 100%);
+    padding: 10px 13px ;
+}
+body aside .atendimento .itens .texto {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 8.964px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13.894px;
+}
+body aside .atendimento .itens .texto span {
+
+    font-weight: 800;
+    line-height: 13.894px; /* 155% */
+}
